@@ -4,47 +4,64 @@
 <title>Entrega 1 - Victoria Sztern</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap" rel="stylesheet">
-
+<link rel="script" href="script.js">
 </head>
 
 <body>
-    <style>
-      
-        .gfg {
-            all: unset;
-        }
-        
-</style>
-   
+
+    <section id="seccion1">   
 <h1>
-    Cuestionario: Matemática Básica <br>
+    <div class="mateb">
+    Matemática Básica <br>
+        </div>
     <div class="arrow">
+        <a class="pabajo" href="#section2">
+            
     ▼
+</a>
+<style>
+a {
+    display: inline-block;
+    color: #A585DC;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+</style>
 </div>
 
 </h1>
+</section>
 
+<section id="section2">
 <div class = "rapido">
 
 
 
 <h2>Rápido, ¿cuánto es 300 + 500?</h2>
 
-    <div class="fondo1">
+        <div id="fondo1">
         
         
-        <br> <button id="boton1" type="submit"class="btn btn-warning" value="500"/>500</button> <br>
+        <br> <button id="boton1" type="submit"class="btn btn-warning" value="800"/>800</button> <br>
      <br><button id="boton4" type="submit" class="btn btn-warning" value="301"/>301</button> <br>
         <br> <button id="boton2" type="submit" class="btn btn-warning" value="459"/>459</button> <br>
          <br><button id="boton3" type="submit"class="btn btn-warning" value="100"/>100</button> <br>
 
-
-    </div>
+            </div>
+    
 
 </div>
+<div id="reset">
+    <button class="btn btn-outline-dark"id = "reset" type ="submit">reset</button>
+</div>
+
+</section>
 
 <script src="script.js"></script>
 
