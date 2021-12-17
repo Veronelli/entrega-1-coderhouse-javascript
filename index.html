@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Entrega 1 - Victoria Sztern</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="script" href="script.js" />
+  </head>
+
+  <body>
+    <section id="seccion1">
+      <h1>
+        <div class="mateb">Matemática Básica <br /></div>
+        <div class="arrow">
+          <a class="pabajo" href="#section2"> ▼ </a>
+          <style>
+            a {
+              display: inline-block;
+              color: #a585dc;
+              text-align: center;
+              -webkit-transition: all 0.5s;
+              -moz-transition: all 0.5s;
+              -o-transition: all 0.5s;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 5px;
+            }
+          </style>
+        </div>
+      </h1>
+    </section>
+
+    <section id="section2">
+      <div class="rapido">
+        <h1 id="time"></h1>
+        <p id="level"></p>
+        <h2 class="Q"></h2>
+
+        <div id="fondo1">
+          <br />
+          <button type="submit" class="btn btn-warning button"></button>
+          <br />
+          <br />
+          <button type="submit" class="btn btn-warning button"></button>
+          <br />
+          <br />
+          <button type="submit" class="btn btn-warning button"></button>
+          <br />
+          <br /><button type="submit" class="btn btn-warning button"></button>
+          <br />
+        </div>
+      </div>
+      <div id="reset">
+        <button class="btn btn-outline-dark" id="reset" type="submit">
+          reset
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
