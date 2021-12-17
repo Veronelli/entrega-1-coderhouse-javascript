@@ -66,10 +66,6 @@ class Suma {
     this.render();
   }
 
-  disableAllButton() {
-    this.allButtons.forEach((m) => m.setAttribute("disabled"));
-  }
-
   verifyAnswer(button) {
     if (this.flag == false) {
       this.flag = true;
